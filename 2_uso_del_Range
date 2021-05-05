@@ -1,0 +1,9 @@
+Sub dario()
+    'Este es un comentario en VBA
+    ThisWorkbook.Sheets("Sheet1").Range("A1").Value = "The value of A1"
+    ThisWorkbook.Sheets("Sheet1").Range("A5:C5").Value = 15
+    ThisWorkbook.Sheets("Sheet1").Range("A10:C10").Value = ThisWorkbook.Sheets("Sheet1").Range("A9:C9").Value
+
+    
+
+End Sub
