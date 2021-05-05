@@ -1,0 +1,9 @@
+Sub dario()
+
+    'Esto es un comentario en VBA
+    ThisWorkbook.Sheets("Sheet1").Cells(1, 1).Value = "El valor de la celda A1 celda (1,1)"
+    ThisWorkbook.Sheets("Sheet1").Cells(2, 1).Value = "El valor de la celda A2 celda (2,1)"
+    ThisWorkbook.Sheets("Sheet1").Cells(1, 2).Value = "El valor de la celda B1 celda (1,2)"
+    ThisWorkbook.Sheets("Sheet1").Cells(2, 2).Value = "El valor de la celda B2 celda (2,2)"
+
+End Sub
